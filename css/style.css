@@ -1,0 +1,37 @@
+header{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 18px;
+}
+
+.score{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.score label { 
+    background-color: red;
+    margin: 5px 10px 0 10px;
+}
+
+#game{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.btn-elegir button{
+    border-radius: 50%;
+    padding: 10px;
+    margin: 40px 10px;
+}
+i{
+    font-size: 50px;
+    color: orange;
+}
+.reset{
+    margin: 0 auto;
+}
