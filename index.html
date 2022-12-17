@@ -20,22 +20,23 @@
     </header>
     <div class="score">
         <label for="">Gamer</label>
-        <h3 id="score">0:0</h3>
+        <h3><span id="gamerScore" >0</span> : <span id="computerScore">0</span></h3>
         <label for="">Computer</label>
     </div>
 
     <div id="game">
-        <h2 id="text">texto</h2>
+        <h2 id="text"></h2>
         <div>
-            <i id="gamer-option" class="fa-solid"></i>
-            <i id="computer-option" class="fa-solid fa-hand-back-fist"></i>
+            <p>Gamer: <span id="gamer-option"></span></p>
+            <p>Computer: <span id="computer-option"></span></p>
         </div>
         <div class="btn-elegir">
-            <button id="piedra"><i class="fa-solid fa-hand-back-fist"></i></button>
-            <button id="papel"><i class="fa-solid fa-hand"></i></button>
-            <button id="tijera"><i class="fa-solid fa-hand-scissors"></i></button>
+            <button class="button" id="piedra"><i class="fa-solid fa-hand-back-fist"></i></button>
+            <button class="button" id="papel"><i class="fa-solid fa-hand"></i></button>
+            <button class="button" id="tijera"><i class="fa-solid fa-hand-scissors"></i></button>
         </div>
-        <button class="btn btn-primary reset">New game</button>
+
+        <button id="reset" class="btn btn-primary">New game</button>
     </div>
 
 
